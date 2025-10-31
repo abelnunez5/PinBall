@@ -28,37 +28,41 @@
     <ClCompile Include="Source\ModuleGame.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source/p2Point.h">
       <Filter>Headers\Containers</Filter>
     </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers\Containers</Filter>
+    </ClInclude>
     <ClInclude Include="Source/Application.h">
-      <Filter>Headers</Filter>
+      <Filter>Headers\Containers</Filter>
     </ClInclude>
     <ClInclude Include="Source/Globals.h">
-      <Filter>Headers</Filter>
+      <Filter>Headers\Containers</Filter>
     </ClInclude>
     <ClInclude Include="Source/Module.h">
-      <Filter>Headers</Filter>
+      <Filter>Headers\Containers</Filter>
     </ClInclude>
     <ClInclude Include="Source/ModuleAudio.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Source/ModulePhysics.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Source/ModuleRender.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Source/ModuleWindow.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Timer.h">
-      <Filter>Headers</Filter>
+      <Filter>Headers\Containers</Filter>
     </ClInclude>
     <ClInclude Include="Source\ModuleGame.h">
-      <Filter>Headers</Filter>
+      <Filter>Headers\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source/ModulePhysics.h">
+      <Filter>Headers\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source/ModuleRender.h">
+      <Filter>Headers\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source/ModuleWindow.h">
+      <Filter>Headers\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Headers\Containers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
