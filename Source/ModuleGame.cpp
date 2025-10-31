@@ -7,7 +7,9 @@
 
 ModuleGame::ModuleGame(Application* app, bool start_enabled) : Module(app, start_enabled)
 {
-	
+
+
+
 }
 
 ModuleGame::~ModuleGame()
@@ -18,6 +20,8 @@ bool ModuleGame::Start()
 {
 	LOG("Loading Intro assets");
 	bool ret = true;
+
+	tablero = LoadTexture("Assets/PokemonPinball_Map.png");
 
 	return ret;
 }
@@ -33,5 +37,8 @@ bool ModuleGame::CleanUp()
 // Update: draw background
 update_status ModuleGame::Update()
 {
+
+	App->renderer->Draw(tablero, 0,0, 0, 0,0,0);
+
 	return UPDATE_CONTINUE;
 }

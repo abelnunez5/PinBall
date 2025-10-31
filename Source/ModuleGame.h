@@ -22,7 +22,10 @@ public:
 	update_status Update();
 	bool CleanUp();
 
+
 public:
 
-	
+	std::vector<PhysicEntity*> entities;
+
+	Texture2D tablero;
 };
